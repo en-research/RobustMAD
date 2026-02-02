@@ -45,9 +45,9 @@ For response generation, run:
 Within the script, set ```INPUT_JSON_PATH = "RobustMAD_OE.json"``` to evaluate on original images, or ```INPUT_JSON_PATH = "RobustMAD_OE_low.json"``` to evaluate on visually perturbed images.
 
 For evaluation with LLM judge (only after response generation), run:
-```python utils/judge_OE_MSLM_response.py <model_OE_results_folder_name>``` where ```<model_OE_results_folder_name``` is, for example, ```OE_Qwen3_VL_4B_Instruct_s0```.
+```python utils/judge_OE_MSLM_response.py <model_OE_results_folder_name>``` where ```<model_OE_results_folder_name>``` is, for example, ```OE_Qwen3_VL_4B_Instruct_s0```.
 
-Note: As this requires an OpenAI API key, we also provide the judged responses in the [results](./results) folder
+Note: As the judging script requires an OpenAI API key, we also provide the already judged responses in the [results](./results) folder.
 
 
 ## Results
