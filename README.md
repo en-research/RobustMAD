@@ -18,6 +18,9 @@ We present Robust Multimodal Anomaly Detection (RobustMAD), the first practicall
 
 Download raw data directly from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) and [VisA](https://github.com/amazon-science/spot-diff?tab=readme-ov-file#data-download) sites and store them into [MVTec-AD/](./MVTec-AD) and [VisA/](./VisA) folders respectively.
 
+To generate visually perturbed images (motion blur, low-lighting), run:
+```python utils/generate_LoQ_images.py```
+
 :two: **Model Configuration**
 
 To accommodate differences in model input and output handling across models, we have created separate evaluation scripts for each model, which are located in the [evaluation](./evaluation) folder.
