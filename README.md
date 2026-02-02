@@ -16,16 +16,16 @@ We present Robust Multimodal Anomaly Detection (RobustMAD), the first practicall
 ## Evaluation Pipeline
 :one: **Image data preparation**
 
-Download MVTec-AD and VisA datasets (which includes our visually perturbed additions) from and store them into [MVTec-AD/](./MVTec-AD) and [VisA/](./VisA) folders respectively.
+Download raw data directly from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) and [VisA](https://github.com/amazon-science/spot-diff?tab=readme-ov-file#data-download) sites and store them into [MVTec-AD/](./MVTec-AD) and [VisA/](./VisA) folders respectively.
 
-**Model Configuration**
+:two: **Model Configuration**
 
 To accommodate differences in model input and output handling across models, we have created separate evaluation scripts for each model, which are located in the [evaluation](./evaluation) folder.
 
 For open-source models in the InternVL, Phi, Qwen, and MiniCPM families, refer to their respective Hugging Face model cards and install the correct Transformers version to download the models.
 For proprietary  GPT-5 Nano and Gemini 3 Flash, an API key should be provided in the respective evaluation script.
 
-**Response Generation and Evaluation**
+:three: **Response Generation and Evaluation**
 
 ## Results
 
