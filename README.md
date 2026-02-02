@@ -9,7 +9,7 @@ particular, three recurring failure modes emerge: (i) fragile multimodal groundi
 We present Robust Multimodal Anomaly Detection (RobustMAD), the first practically realistic benchmark for evaluating the real-world robustness of MSLMs in industrial anomaly inspection—a field that can significantly benefit from on-device MSLM deployment. RobustMAD is explicitly designed to capture core challenges encountered in practice, including domain-intensive reasoning, non-standardized or ill-posed user queries, open-ended inspection reporting, and realistic visual quality variations. Our benchmark comprehensively encompasses two major types of robustness: **knowledge-based robustness**, which evaluates model reasoning under diverse, imperfect, and domain-knowledge–intensive queries, and **visual quality robustness**, which assesses model sensitivity to image-quality perturbations commonly occurring in dynamic assembly lines, such as motion blur and low lighting.
 
 <div style="text-align: center;">
-  <img src="figures/Fig_Benchmark_Dataset_Overview.jpg" alt="Pipeline" width="70%" />
+  <img src="figures/Fig_Benchmark_Dataset_Overview.jpg" alt="Overview" width="100%" />
 </div>
 
 ## Evaluation
