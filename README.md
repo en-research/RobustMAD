@@ -30,14 +30,14 @@ For proprietary  GPT-5 Nano and Gemini 3 Flash, an API key should be provided in
 
 :three: **Response Generation and Evaluation**
 
-:triangular_flag_on_post: **Multiple-choice questions**
+:round_pushpin: **Multiple-choice questions**
 
 For response generation and evaluation with accuracy metric, run:
 ```python evaluation/mcq_<model_name>.py``` where ```<model_name>``` is, for example, ```qwen3_vl_4b```.
 
 Within the script, set ```INPUT_JSON_PATH = "RobustMAD_MCQ.json"``` to evaluate on original images, or ```INPUT_JSON_PATH = "RobustMAD_MCQ_low.json"``` to evaluate on visually perturbed images.
 
-:triangular_flag_on_post: **Open-ended questions**
+:round_pushpin: **Open-ended questions**
 
 For response generation, run:
 ```python evaluation/oe_<model_name>.py``` where ```<model_name>``` is, for example, ```qwen3_vl_4b```.
