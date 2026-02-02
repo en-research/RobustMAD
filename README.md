@@ -50,11 +50,10 @@ For evaluation with LLM judge (only after response generation), run:
 Note: As the judging script requires an OpenAI API key, we also provide the already judged responses in the [results](./results) folder.
 
 
-## Results
-
-
 ## Examples of Recurring Robustness Gaps and Failure Modes in MSLMs
+<div style="text-align: center;">
+  <img src="figures/Fig_qualitative_examples.jpg" alt="examples" width="100%" />
+</div>
 
 ## Acknowledgement
-MVTec AD , VisA datasets
-MMAD DATASET for domain knowledge text
+We sincerely thank the authors of the [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) and [VisA](https://github.com/amazon-science/spot-diff?tab=readme-ov-file#data-download) datasets for providing the image data, and the authors of [MMAD](https://github.com/jam-cc/MMAD/tree/main/dataset/MMAD) for the domain knowledge text.
