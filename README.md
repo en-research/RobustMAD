@@ -13,7 +13,9 @@ We present Robust Multimodal Anomaly Detection (RobustMAD), the first practicall
 
 ## Evaluation Pipeline
 **1. Image data preparation**
-Download MVTec-AD and VisA datasets and store them in respective folders.
+
+Download MVTec-AD and VisA datasets and store them into [MVTec-AD/](./MVTec-AD) and [VisA/](./VisA) folders respectively.
+
   
 3. 
 
