@@ -30,11 +30,25 @@ For proprietary  GPT-5 Nano and Gemini 3 Flash, an API key should be provided in
 
 :three: **Response Generation and Evaluation**
 
-:triangular_flag_on_post: MCQ 
-For response generation and evaluation with accuracy metric:
+:triangular_flag_on_post: **Multiple-choice questions**
+
+For response generation and evaluation with accuracy metric, run:
 ```python evaluation/mcq_<model_name>.py``` where ```<model_name>``` is, for example, ```qwen3_vl_4b```.
 
 Within the script, set ```INPUT_JSON_PATH = "RobustMAD_MCQ.json"``` to evaluate on original images, or ```INPUT_JSON_PATH = "RobustMAD_MCQ_low.json"``` to evaluate on visually perturbed images.
+
+:triangular_flag_on_post: **Open-ended questions**
+
+For response generation, run:
+```python evaluation/oe_<model_name>.py``` where ```<model_name>``` is, for example, ```qwen3_vl_4b```.
+
+Within the script, set ```INPUT_JSON_PATH = "RobustMAD_OE.json"``` to evaluate on original images, or ```INPUT_JSON_PATH = "RobustMAD_OE_low.json"``` to evaluate on visually perturbed images.
+
+For evaluation with LLM judge (only after response generation), run:
+```python utils/judge_OE_MSLM_response.py <model_OE_results_folder_name>``` where ```<model_OE_results_folder_name``` is, for example, ```OE_Qwen3_VL_4B_Instruct_s0```.
+
+Note: As this requires an OpenAI API key, we also provide the judged responses in the [results](./results) folder
+
 
 ## Results
 
