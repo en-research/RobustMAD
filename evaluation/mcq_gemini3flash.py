@@ -1,3 +1,6 @@
+
+# REVISED CODE TO GENERATE ACCURACY CSV FROM ALREADY EXISTING JSON FILE
+
 # Note: Google recommends temperature =1.0 for Gemini3 https://ai.google.dev/gemini-api/docs/models?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=#gemini-3-flash-preview, so just leave it as default, nothing set
 
 import json
@@ -27,7 +30,7 @@ MODEL_NAME = "gemini-3-flash-preview"  # Based on Gemini 3 Flash preview model n
 api_key = ""  # Set your Google API key here
 
 # Paths
-INPUT_JSON_PATH = "RobustMAD_MCQ.json" #"RobustMAD_MCQ_low.json"     # Input dataset JSON for multiple-choice questions
+INPUT_JSON_PATH = "Robust_Anomaly_VQA_AA.json" #"Robust_Anomaly_VQA_low_AA.json"     # Input dataset JSON for multiple-choice questions
 model_name_short = "gemini3flash"
 
 # Suffix determination
