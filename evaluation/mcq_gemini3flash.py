@@ -1,5 +1,5 @@
 
-# REVISED CODE TO GENERATE ACCURACY CSV FROM ALREADY EXISTING JSON FILE
+# REVISED CODE TO GENERATE ACCURACY CSV FROM ALREADY EXISTING JSON FILE IF AVAILABLE
 
 # Note: Google recommends temperature =1.0 for Gemini3 https://ai.google.dev/gemini-api/docs/models?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=#gemini-3-flash-preview, so just leave it as default, nothing set
 
