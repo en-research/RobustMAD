@@ -30,7 +30,7 @@ MODEL_NAME = "gemini-3-flash-preview"  # Based on Gemini 3 Flash preview model n
 api_key = ""  # Set your Google API key here
 
 # Paths
-INPUT_JSON_PATH = "Robust_Anomaly_VQA_AA.json" #"Robust_Anomaly_VQA_low_AA.json"     # Input dataset JSON for multiple-choice questions
+INPUT_JSON_PATH = "RobustMAD_MCQ.json" #"RobustMAD_MCQ_low.json"    # Input dataset JSON for multiple-choice questions
 model_name_short = "gemini3flash"
 
 # Suffix determination
