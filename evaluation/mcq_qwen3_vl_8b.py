@@ -25,11 +25,6 @@ from transformers import AutoProcessor, Qwen3VLForConditionalGeneration
 # CUDA_VISIBLE_DEVICES=1 nohup python evaluation/mcq_qwen3_vl_8b.py >> results/output_mcq_qwen3_vl_8b.log 2>&1 &
 # conda activate qwen3vl_venv
 
-# I had to manual download as autodownload not working (suggested command from ChatGPT):
-# HF_HUB_DISABLE_IPV6=1 HF_HUB_ENABLE_HF_TRANSFER=1 \
-# huggingface-cli download Qwen/Qwen3-VL-8B-Instruct --resume-download
-
-
 
 # Set seeds for reproducibility
 def set_seeds(seed=42):
