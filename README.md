@@ -66,9 +66,9 @@ We also sincerely thank the following individuals (listed alphabetically) for th
 ## Citation
 If you found this work useful, please consider citing the following paper and giving this repository a ⭐:
 ```
-@article{arunan2026skrA9UYNIZ,
+@article{arunan2026robustmad,
   author    = {Arunan, Anushiya and Li, Xin and Qin, Yan and Tan, U-Xuan and Vuong, Nhu Khue and Li, Xiaoli and Yuen, Chau},
-  title     = {RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants},
+  title     = {{RobustMAD}: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants},
   journal   = {Transactions on Machine Learning Research},
   year      = {2026},
   url       = {https://openreview.net/forum?id=skrA9UYNIZ}
