@@ -1,5 +1,5 @@
-# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants
-by Anonymous Authors
+# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants [[Paper]](https://openreview.net/forum?id=skrA9UYNIZ) [[Cite]](#citation)
+by Anushiya Arunan, Xin Li, Yan Qin, U-Xuan Tan, Nhu Khue Vuong, Xiaoli Li and Yuen Chau
 
 ## Introduction
 Multimodal industrial anomaly inspection assistants are a critical component of nextgeneration smart factories, enabling interactive vision–language–based querying. However, multimodal large language models remain impractical for on-site deployment due to prohibitive computational demands and privacy risks from cloud-based inference. Compact multimodal small language models (MSLMs) offer a deployable alternative, yet progress is constrained by the lack of comprehensive robustness analyses and meaningfully challenging benchmarks that reflect real-world industrial conditions. 
@@ -55,9 +55,23 @@ Note: As the judging script requires an OpenAI API key, we also provide the alre
   <img src="figures/Fig_qualitative_examples.jpg" alt="examples" width="100%" />
 </div>
 
+## Citation
+If you found this work useful, please consider citing the following paper and giving this repository a ⭐:
+```
+@article{arunan2026skrA9UYNIZ,
+  author    = {Arunan, Anushiya and Li, Xin and Qin, Yan and Tan, U-Xuan and Vuong, Nhu Khue and Li, Xiaoli and Yuen, Chau},
+  title     = {RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants},
+  journal   = {Transactions on Machine Learning Research},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=skrA9UYNIZ},
+  note      = {Featured Certification}
+}
+```
+
 ## Acknowledgement
 We sincerely thank the authors of the [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) and [VisA](https://github.com/amazon-science/spot-diff?tab=readme-ov-file#data-download) datasets for providing the image data, and the authors of [MMAD](https://github.com/jam-cc/MMAD/tree/main/dataset/MMAD) for the domain knowledge text.
 
 We sincerely thank the following individuals (listed alphabetically) for their valuable contributions with the human review of the RobustMAD questions and answers: Bohan Liu, Chengqi Liang, Hao Jia, Haoran Li, Jianan Li, Jizheng Wang, Kairan Zhou, Qing Gong, Yanwei Gu, and Yupeng Du.
 
 We also sincerely thank the following individuals (listed alphabetically) for their valuable contributions with the human validation of the GPT-5 LLM judge: Khattiya Pongsirijinda, Mengbing Liu, Sachith Dilhara Abeywickrama, Sithumi Kavindya Wickramasinghe, and Zhiqiang Cao.
+
