@@ -71,8 +71,7 @@ If you found this work useful, please consider citing the following paper and gi
   title     = {RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants},
   journal   = {Transactions on Machine Learning Research},
   year      = {2026},
-  url       = {https://openreview.net/forum?id=skrA9UYNIZ},
-  note      = {Featured Certification}
+  url       = {https://openreview.net/forum?id=skrA9UYNIZ}
 }
 ```
 
