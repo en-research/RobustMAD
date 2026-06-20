@@ -1,4 +1,4 @@
-# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants [[Paper]](https://openreview.net/forum?id=skrA9UYNIZ) [[Cite]](#citation)
+# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants [[Project Page]](https://robustmad.github.io/) [[Paper]](https://openreview.net/forum?id=skrA9UYNIZ) [[Cite]](#citation)
 by Anushiya Arunan, Xin Li, Yan Qin, U-Xuan Tan, Nhu Khue Vuong, Xiaoli Li and Yuen Chau
 
 ## Introduction
@@ -59,7 +59,7 @@ Note: As the judging script requires an OpenAI API key, we also provide the alre
 ## Acknowledgement
 We sincerely thank the authors of the [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) and [VisA](https://github.com/amazon-science/spot-diff?tab=readme-ov-file#data-download) datasets for providing the image data, and the authors of [MMAD](https://github.com/jam-cc/MMAD/tree/main/dataset/MMAD) for the domain knowledge text.
 
-We sincerely thank the following individuals (listed alphabetically) for their valuable contributions with the human review of the RobustMAD questions and answers: Bohan Liu, Chengqi Liang, Hao Jia, Haoran Li, Jianan Li, Jizheng Wang, Kairan Zhou, Qing Gong, Xin Li, Yanwei Gu, and Yupeng Du.
+We sincerely thank the following individuals (listed alphabetically) for their valuable contributions with the human review of the RobustMAD questions and answers: Bohan Liu, Chengqi Liang, Hao Jia, Haoran Li, Jianan Li, Jizheng Wang, [Kairan Zhou](https://github.com/inv1sion), Qing Gong, [Xin Li](https://lixin.ai/), Yanwei Gu, and Yupeng Du.
 
 We also sincerely thank the following individuals (listed alphabetically) for their valuable contributions with the human validation of the GPT-5 LLM judge: Khattiya Pongsirijinda, Mengbing Liu, Sachith Dilhara Abeywickrama, Sithumi Kavindya Wickramasinghe, and Zhiqiang Cao.
 
