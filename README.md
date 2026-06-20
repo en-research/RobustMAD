@@ -1,5 +1,4 @@
-# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants 
-# [[Project Page]](https://robustmad.github.io/) [[Paper]](https://openreview.net/forum?id=skrA9UYNIZ) [[Cite]](#citation)
+# RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants [[Paper]](https://openreview.net/forum?id=skrA9UYNIZ) [[Project Page]](https://robustmad.github.io/) [[Cite]](#citation)
 by Anushiya Arunan, Xin Li, Yan Qin, U-Xuan Tan, Nhu Khue Vuong, Xiaoli Li and Yuen Chau
 
 ## Introduction
